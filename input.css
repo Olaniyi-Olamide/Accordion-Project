@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero {
+	background-image: url(../images/background-pattern-desktop.svg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-color: hsl(275, 100%, 97%);
+}
+
+.no-display {
+	display: none;
+	transition: all 1.5s;
+}

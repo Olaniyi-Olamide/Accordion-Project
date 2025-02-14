@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Accordion Project</title>
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+	<body>
+		<div
+			class="flex justify-center items-center w-screen min-h-screen hero">
+			<!-- faq box -->
+			<div class="bg-white p-10 px-7 rounded-md shadow-md max-w-lg">
+				<!-- header -->
+				<div class="flex justify-start space-x-2">
+					<img src="images/icon-star.svg" />
+					<h1 class="text-Darkpurple text-4xl font-bold">FAQS</h1>
+				</div>
+
+				<!-- box 1 -->
+				<div
+					class="mt-5 space-x-0 space-y-3 md:space-y-3 border-b-2 border-b-Lightpink">
+					<div class="flex justify-between space-x-4 mb-3">
+						<h3
+							class="text-Darkpurple text-1xl font-bold hover:text-purple-600 cursor-pointer"
+							>What is Frontend Mentor, and how will it help
+							me?</h3
+						>
+						<img
+							src="images/icon-minus.svg"
+							class="cursor-pointer icon clickBtn" />
+						<img
+							src="images/icon-plus.svg"
+							class="cursor-pointer icon hidden clickBtn" />
+					</div>
+					<div id="accordion">
+						<p class="text-Grayishpurple mb-4"
+							>Frontend Mentor offers realistic coding challenges
+							to help developers improve their frontend coding
+							skills with projects in HTML, CSS, and JavaScript.
+							It's suitable for all levels and ideal for portfolio
+							building.</p
+						>
+					</div>
+				</div>
+
+				<!-- box 2 -->
+				<div
+					class="mt-5 space-x-0 space-y-3 md:space-y-3 border-b-2 border-b-Lightpink">
+					<div class="flex justify-between space-x-4 mb-3">
+						<h3
+							class="text-Darkpurple text-1xl font-bold hover:text-purple-600 cursor-pointer"
+							>Is Frontend Mentor free?</h3
+						>
+						<img
+							src="images/icon-minus.svg"
+							class="cursor-pointer icon hidden clickBtn2" />
+						<img
+							src="images/icon-plus.svg"
+							class="cursor-pointer icon clickBtn2" />
+					</div>
+					<div class="hidden" id="accordion2">
+						<p class="text-Grayishpurple mb-4"
+							>Yes, Frontend Mentor offers both free and premium
+							coding challenges, with the free option providing
+							access to a range of projects suitable for all skill
+							levels.</p
+						>
+					</div>
+				</div>
+
+				<!-- box 3 -->
+				<div
+					class="mt-5 space-x-0 space-y-3 md:space-y-3 border-b-2 border-b-Lightpink">
+					<div class="flex justify-between space-x-4 mb-3">
+						<h3
+							class="text-Darkpurple text-1xl font-bold hover:text-purple-600 cursor-pointer"
+							>Can I use Frontend Mentor projects in my
+							portfolio?</h3
+						>
+						<img
+							src="images/icon-minus.svg"
+							class="cursor-pointer icon hidden clickBtn3" />
+						<img
+							src="images/icon-plus.svg"
+							class="cursor-pointer icon clickBtn3" />
+					</div>
+					<div class="hidden" id="accordion3">
+						<p class="text-Grayishpurple mb-4"
+							>Yes, you can use projects completed on Frontend
+							Mentor in your portfolio. It's an excellent way to
+							showcase your skills to potential employers!
+						</p>
+					</div>
+				</div>
+
+				<!-- box 4 -->
+				<div
+					class="mt-5 space-x-0 space-y-3 md:space-y-3 border-b-2 border-b-Lightpink">
+					<div class="flex justify-between space-x-4 mb-3">
+						<h3
+							class="text-Darkpurple text-1xl font-bold hover:text-purple-600 cursor-pointer">
+							How can I get help if I'm stuck on a Frontend Mentor
+							challenge?</h3
+						>
+						<img
+							src="images/icon-minus.svg"
+							class="cursor-pointer icon hidden clickBtn4" />
+						<img
+							src="images/icon-plus.svg"
+							class="cursor-pointer icon clickBtn4" />
+					</div>
+					<div class="hidden" id="accordion4">
+						<p class="text-Grayishpurple mb-4"
+							>The best place to get help is inside Frontend
+							Mentor's Discord community. There's a help channel
+							where you can ask questions and seek support from
+							other community members.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="Js/script.js"></script>
+	</body>
+</html>
